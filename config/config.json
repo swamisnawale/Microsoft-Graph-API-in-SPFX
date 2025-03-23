@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "microsoft-graph-api-in-spfx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/microsoftGraphApiInSpfx/MicrosoftGraphApiInSpfxWebPart.js",
+          "manifest": "./src/webparts/microsoftGraphApiInSpfx/MicrosoftGraphApiInSpfxWebPart.manifest.json"
+        }
+      ]
+    },
+    "users-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/users/UsersWebPart.js",
+          "manifest": "./src/webparts/users/UsersWebPart.manifest.json"
+        }
+      ]
+    },
+    "mail-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mail/MailWebPart.js",
+          "manifest": "./src/webparts/mail/MailWebPart.manifest.json"
+        }
+      ]
+    },
+    "calendar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calendar/CalendarWebPart.js",
+          "manifest": "./src/webparts/calendar/CalendarWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MicrosoftGraphApiInSpfxWebPartStrings": "lib/webparts/microsoftGraphApiInSpfx/loc/{locale}.js",
+    "UsersWebPartStrings": "lib/webparts/users/loc/{locale}.js",
+    "MailWebPartStrings": "lib/webparts/mail/loc/{locale}.js",
+    "CalendarWebPartStrings": "lib/webparts/calendar/loc/{locale}.js"
+  }
+}

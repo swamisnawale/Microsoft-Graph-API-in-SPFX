@@ -1,0 +1,70 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "microsoft-graph-api-in-spfx-client-side-solution",
+    "id": "3a9a2e72-97ff-486a-a0ba-15fbf7b18f71",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Swami Nawale",
+      "websiteUrl": "https://swaminawale.com/",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Send"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.ReadBasic"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.ReadWrite"
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "Microsoft Graph API in SPFX description"
+      },
+      "longDescription": {
+        "default": "Microsoft Graph API in SPFX description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "microsoft-graph-api-in-spfx Feature",
+        "description": "The feature that activates elements of the microsoft-graph-api-in-spfx solution.",
+        "id": "fb450161-8cf0-4140-a7be-cf006e6d383d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/microsoft-graph-api-in-spfx.sppkg"
+  }
+}
