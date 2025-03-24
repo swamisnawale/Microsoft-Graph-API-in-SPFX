@@ -75,9 +75,7 @@ export default class Mail extends React.Component<
     return (
       <section className={styles.mail}>
         <h2>My Emails</h2>
-        <a href="https://youtu.be/SH7o2yW319U" target="_blank">
-          Watch video
-        </a>
+
         <br />
         <button onClick={() => this.sendEmail()}> Send email</button>
 

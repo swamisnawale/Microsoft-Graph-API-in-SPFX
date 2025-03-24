@@ -76,9 +76,7 @@ export default class Calendar extends React.Component<
     return (
       <section className={styles.calendar}>
         <h2>My Calendar</h2>
-        <a href="https://youtu.be/rsq8h59akAE" target="_blank">
-          Watch video
-        </a>
+
         <br />
         <button onClick={() => this.createEvent()}>Create event</button>
         {this.state.myEvents.map((event: IEvent) => {

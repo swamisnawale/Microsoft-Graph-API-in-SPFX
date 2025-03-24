@@ -50,9 +50,7 @@ export default class Users extends React.Component<
     return (
       <section className={styles.users}>
         <h2>Fetch User Profile</h2>
-        <a href="https://youtu.be/dbok_HrOa_4" target="_blank">
-          Watch video
-        </a>
+
         <br />
         <div>
           <input
